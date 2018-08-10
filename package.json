@@ -9,7 +9,7 @@
     "start": "nodemon --exec babel-node server/index.js",
     "lint:js": "eslint --fix server/**/*.js",
     "clean": "rmdir /s /q build && mkdir build",
-    "build-babel": "babel -d ./build ./src -s",
+    "build-babel": "babel -d ./build ./server -s",
     "build": "npm run clean && npm run build-babel",
     "start:build": "npm run build && node ./build/index.js"
   },

@@ -5,3 +5,4 @@ package-lock.json
 .sonarlint/
 .coveralls.yml
 coverage/
+build/
