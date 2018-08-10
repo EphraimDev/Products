@@ -1,10 +1,6 @@
 # Products
 
-[![Build Status](https://travis-ci.org/EphraimDev/Products.svg?branch=develop)](https://travis-ci.org/EphraimDev/Products)
-[![Maintainability](https://api.codeclimate.com/v1/badges/4ab38ab780ad6587807f/maintainability)](https://codeclimate.com/github/EphraimDev/Products/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/4ab38ab780ad6587807f/test_coverage)](https://codeclimate.com/github/EphraimDev/Products/test_coverage)
-
-### Techn stack
+### Tech stack
 
 - [Nodejs](https://nodejs.org/en/)
 - [Expressjs](https://expressjs.com/)

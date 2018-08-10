@@ -4,3 +4,4 @@ package-lock.json
 .nyc_output/
 .sonarlint/
 .coveralls.yml
+coverage/
