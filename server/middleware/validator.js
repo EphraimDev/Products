@@ -13,7 +13,7 @@ class ProductValidation {
         * @return {json} res.json
         */
   static validateCreateProduct(req, res, next) {
-    const nameRegex = /^(?=.*[a-z (),.'-]).+$/;
+    const nameRegex = /^(?=.*[a-zA-Z 0-9 (),.'-]).+$/;
     const descriptionRegex = /^(?=.*[a-zA-Z 0-9 (),.'-]).+$/;
     const digits = /^(?=.*[0-9]).+$/;
     const imgRegex = /^https?:\/\/(?:[a-z-]+\.)+[a-z]{2,6}(?:\/[^#?]+)+\.(?:jpe?g|gif|png)$/;
