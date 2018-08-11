@@ -1,6 +1,9 @@
 # Products
 
 [![Build Status](https://travis-ci.org/EphraimDev/Products.svg?branch=develop)](https://travis-ci.org/EphraimDev/Products)
+[![Coverage Status](https://coveralls.io/repos/github/EphraimDev/Products/badge.svg?branch=develop)](https://coveralls.io/github/EphraimDev/Products?branch=develop)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/4ab38ab780ad6587807f/test_coverage)](https://codeclimate.com/github/EphraimDev/Products/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4ab38ab780ad6587807f/maintainability)](https://codeclimate.com/github/EphraimDev/Products/maintainability)
 
 ### Tech stack
 
