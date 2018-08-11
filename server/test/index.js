@@ -33,7 +33,7 @@ describe('Tests for Products\' API endpoints', () => {
           productId: UUIDV4(),
           name: 'Fancy shoe',
           description: 'Shoes for kids',
-          price: 2000,
+          price: "2000",
           category: 'Footware',
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg',
           created_at: moment().format(),
@@ -108,7 +108,7 @@ describe('Tests for Products\' API endpoints', () => {
         const newProduct = {
           productId: UUIDV4(),
           description: 'Shoes for kids',
-          price: 2000,
+          price: "2000",
           category: 'Footware',
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg',
           created_at: moment().format(),
@@ -129,7 +129,7 @@ describe('Tests for Products\' API endpoints', () => {
         const newProduct = {
           productId: UUIDV4(),
           name: 'Fancy shoe',
-          price: 2000,
+          price: "2000",
           category: 'Footware',
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg',
           created_at: moment().format(),
@@ -172,7 +172,7 @@ describe('Tests for Products\' API endpoints', () => {
           productId: UUIDV4(),
           name: 'Fancy shoe',
           description: 'Shoes for kids',
-          price: 2000,
+          price: "2000",
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg',
           created_at: moment().format(),
         };
@@ -193,7 +193,7 @@ describe('Tests for Products\' API endpoints', () => {
           productId: UUIDV4(),
           name: 'Fancy shoe',
           description: 'Shoes for kids',
-          price: 2000,
+          price: "2000",
           category: 'Footware',
           created_at: moment().format(),
         };
@@ -214,7 +214,7 @@ describe('Tests for Products\' API endpoints', () => {
           productId: UUIDV4(),
           name: 'Fancy shoe',
           description: 'Shoes for kids',
-          price: 2000,
+          price: "2000",
           category: 'Footware',
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg',
           created_at: moment().format(),
