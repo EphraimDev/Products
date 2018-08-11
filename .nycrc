@@ -7,6 +7,6 @@
       "babel-core/register"
     ],
     "sourceMap": false,
-  "instrument": false,
-  "extends": "@istanbuljs/nyc-config-babel"
+    "instrument": false,
+    "extends": "@istanbuljs/nyc-config-babel"
 }

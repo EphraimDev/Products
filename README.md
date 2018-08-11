@@ -1,5 +1,7 @@
 # Products
 
+[![Build Status](https://travis-ci.org/EphraimDev/Products.svg?branch=develop)](https://travis-ci.org/EphraimDev/Products)
+
 ### Tech stack
 
 - [Nodejs](https://nodejs.org/en/)

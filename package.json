@@ -4,7 +4,7 @@
   "description": "Products is a web application to display list of products and their properties",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_ENV=test nyc mocha --require babel-register --timeout 6000 ./server/test/**.js --exit",
+    "test": "cross-env NODE_ENV=test nyc mocha --require babel-register --timeout 6000 ./server/test/**/**.js --exit",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "start": "nodemon --exec babel-node server/index.js",
     "lint:js": "eslint --fix server/**/*.js",
