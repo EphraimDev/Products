@@ -3,6 +3,5 @@ fabric8-analytics.log
 package-lock.json
 .nyc_output/
 .sonarlint/
-.coveralls.yml
 coverage/
 build/
