@@ -24,7 +24,7 @@ class ProductValidation {
       res.status(400).json({ message: 'Product name can only contain letters and the characters (,.\'-)' });
     } else if (!description || !descriptionRegex.test(description) || !(description.length > 0) || typeof description !== 'string') {
       res.status(400).json({ message: 'Product description can only contain letters, numbers and the characters (,.\'-)' });
-    } else if (!price || !digits.test(price) || typeof price !== 'number') {
+    } else if (!price || !digits.test(price) || typeof price !== 'string') {
       res.status(400).json({ message: 'Product price must be a number' });
     } else if (!category || !descriptionRegex.test(category) || !(category.length > 0) || typeof category !== 'string') {
       res.status(400).json({ message: 'Product category can only contain letters, numbers and the characters (,.\'-)' });
