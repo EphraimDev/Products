@@ -1,3 +1,5 @@
+import BodyRequest from '../helper/bodyRequest';
+
 /**
  * @exports
  * @class ProductValidation
@@ -18,9 +20,8 @@ class ProductValidation {
     const digits = /^(?=.*[0-9]).+$/;
     const imgRegex = /^https?:\/\/(?:[a-z-]+\.)+[a-z]{2,6}(?:\/[^#?]+)+\.(?:jpe?g|gif|png)$/;
 
-    const {
-      name, description, price, category, image,
-    } = req.body;
+    const {name, description, price, category, image} = BodyRequest.bodyRequest(req,res);
+    console.log(price);
     if (!name || !nameRegex.test(name) || !name.length > 0 || typeof name !== 'string') {
       res.status(400).json({ message: 'Product name can only contain letters and the characters (,.\'-)' });
     } else if (!description || !descriptionRegex.test(description) || !(description.length > 0) || typeof description !== 'string') {

@@ -1,6 +1,7 @@
 import moment from 'moment';
 import uuidv4 from 'uuid/v4';
 import products from '../model/products';
+import BodyRequest from '../helper/bodyRequest';
 
 /**
  * @exports
@@ -26,10 +27,8 @@ class ProductsController {
      * @return {json} res.json
      */
   static createNewProduct(req, res) {
-    const {
-      name, description, price, category, image,
-    } = req.body;
 
+    const {name, description, price, category, image} = BodyRequest.bodyRequest(req,res);
     // check if product exists
     const findProduct = products.find(product => product.name === name);
 
